@@ -1,0 +1,68 @@
+ .main 
+{
+    width:75%;
+    background-color: lightgray;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+} 
+.img1,.img2,.img3,.img4
+{
+    position: relative;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.totalCase
+{
+    position: absolute;
+    font-size: larger;
+    top:28%;
+    left:15%;
+    width:100%;
+    color:rgba(0, 0, 0, 0.712);
+}
+.count
+{
+    position: absolute;
+    top:50%;
+    left:15%;
+    font-weight: bold;
+    font-size: x-large;
+}
+@media only screen and (max-width: 768px)
+{
+    .main 
+{
+    width:100%;
+    background-color: lightgray;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.totalCase
+{
+    display: flex;
+    position: absolute;
+    top:25%;
+    left:20%;
+    width:100%;
+    font-size:48px;
+    font-weight: bolder;
+    color:rgba(0, 0, 0, 0.712);
+} 
+.count
+{
+    position: absolute;
+    top:50%;
+    left:22%;
+    font-weight: bold;
+    font-size: x-large;
+    font-size:62px;
+}
+
+}

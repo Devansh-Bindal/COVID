@@ -1,0 +1,42 @@
+.Header
+{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* height: 90px; */
+}
+.Layout
+{
+    width:5%;
+    margin-top:1%;
+    margin-left: 1%;
+}
+.Heading
+{
+    color:rgb(235, 30, 30);
+    margin-top:7%;
+}
+@media only screen and (max-width: 768px)
+{
+    .Header{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .Layout
+    {
+        width:20%;
+        margin-left: 43%;
+        margin-top: 2%;
+    }
+    .Heading
+    {
+        margin-left: 40%;
+        margin-top: 0.2%;
+    }
+    .header_separation
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}

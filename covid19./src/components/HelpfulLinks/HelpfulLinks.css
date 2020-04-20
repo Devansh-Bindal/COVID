@@ -1,0 +1,151 @@
+.header
+{
+    height:100px;
+    margin:0;
+    padding:0;
+    position: relative;
+    background:linear-gradient(rgba(211, 211, 211, 0.5),rgba(211, 211, 211, 0.281),rgba(211, 211, 211, 0.11));
+    /* margin: 0px auto; */
+    /* background:linear-gradient(teal,rgba(0, 128, 128, 0.637),rgba(0, 128, 128, 0.377)); */
+}
+.headding
+{
+    text-align: center;
+    position: absolute;
+    top:25px;
+    left:350px;
+    font-weight: bold;
+    font-size: 40px;
+    /* background-color: lightgray; */
+
+}
+.linksection
+{
+    position: relative;
+}
+.LinkImg
+{
+    /* position: relative; */
+    width:100%;
+    height:300px;
+    opacity:0.3;
+}
+.contentHeading
+{
+    position: absolute;
+    top:5%;
+    left:35%;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.contentSubHeading
+{
+    position: absolute;
+    top:25%;
+    left:5%;
+    text-align: center;
+    color:grey;
+}
+.contentSUBheading
+{
+    position: absolute;
+    top:40%;
+    left:5%;
+    text-align: center;
+    color:grey;
+}
+
+.boxGlobal
+{
+    float: left;
+    width:30%; 
+    height:fit-content;
+    margin:5% 10%;
+    border:1px solid white;
+    background-color: rgba(160, 158, 158, 0.116);
+    border-radius: 1rem;
+    /* box-shadow: 5px 0px 1px lightgray; */
+}
+.boxItaly
+{
+    float:right;
+    width:30%; 
+    height:fit-content;
+    margin-right: 10%;
+    margin-top:5%;
+    border:1px solid white;
+    background-color: rgba(160, 158, 158, 0.116);
+    border-radius: 1rem;
+    /* box-shadow: 5px 0px 1px lightgray; */
+}
+.info-heading
+{
+        margin-left: 2%;
+        margin-bottom: 2%;
+}
+.info-para
+{
+    line-height: 1.2rem;
+    font-size: 16px;
+    color:rgb(35, 92, 92);
+    margin-left:2%;
+    margin-top: 1%;
+}
+.boxEurope
+{
+    float: left;
+    width:30%; 
+    height:fit-content;
+    margin:2% 10%;
+    border:1px solid white;
+    background-color: rgba(160, 158, 158, 0.116);
+    border-radius: 1rem;
+    /* box-shadow: 5px 0px 1px lightgray; */
+}
+.boxGermany
+{
+    float:right;
+    width:30%; 
+    margin-right: 10%;
+    margin-top:1%;
+    height:fit-content;
+    border:1px solid white;
+    background-color: rgba(160, 158, 158, 0.116);
+    border-radius: 1rem;
+    /* box-shadow: 5px 0px 1px lightgray; */
+}
+.boxSpain
+{
+    float: left;
+    width:30%; 
+    height:fit-content;
+    margin:2% 10%;
+    border:1px solid white;
+    background-color: rgba(160, 158, 158, 0.116);
+    border-radius: 1rem;
+    /* box-shadow: 5px 0px 1px lightgray; */
+}
+.boxUK
+{
+    float:right;
+    width:30%; 
+    height:fit-content;
+    margin-right: 10%;
+    margin-top:2%;
+    border:1px solid white;
+    background-color: rgba(160, 158, 158, 0.116);
+    border-radius: 1rem;
+}
+.boxFrance
+{
+    float:right;
+    width:30%; 
+    margin-right: 10%;
+    margin-top:1%;
+    height:fit-content;
+    border:1px solid white;
+    background-color: rgba(160, 158, 158, 0.116);
+    border-radius: 1rem;
+}
+
+

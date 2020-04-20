@@ -1,0 +1,22 @@
+.NavigationItem {
+    /* margin-top:60px; */
+    /* background-color: coral; */
+    /* margin-left:300px;  */
+    /* margin:10px 0; */
+    font-size: 700;
+    box-sizing: border-box;
+    width: 100%;
+    cursor: pointer;
+}
+.NavigationItem a {
+    display: flex;
+    color:grey;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+.NavigationItem a:hover
+{
+    color: rgba(255, 0, 0, 0.678);
+}

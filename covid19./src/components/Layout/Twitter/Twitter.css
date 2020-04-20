@@ -1,0 +1,141 @@
+.twitter
+{
+    background-color: white;
+    border-radius: 1rem;
+    /* margin:1.5rem 1rem; */
+    margin:5% 5%;
+    height:fit-content;
+}
+.twitter-top
+{
+    display: flex;
+}
+
+.twitter-heading
+{
+    color:rgba(0, 0, 0, 0.685);
+    /* margin-top: 30px; */
+    /* margin-left: 4%; */
+    font-weight: bold;
+    font-size: 20px;
+    padding:4%;
+    width:52%;
+    /* background-color: red; */
+}
+.twitter-img
+{
+    width:10%;
+    margin:6% -8%;
+}
+.twitter-info
+{
+    /* background-color: lime; */
+    margin:0 4%;
+    display: flex;
+}
+.twitter-info-img
+{
+    width:25%;
+    /* background-color: red; */
+}
+.twitter-info-img-left
+{
+    width:90%;
+    height:80%;
+    margin:4% 8%;
+    border-radius: 2rem;
+}
+.twitter-info-right
+{
+    width:75%;
+    margin-top: 3%;
+    margin-left:2%;
+    /* background-color: yellow; */
+    /* margin:1%; */
+    /* padding:2%; */
+}
+.LogoName
+{
+    font-size: 16px;
+    margin-top: 2%;
+}
+.Logo-Subscript
+{
+    color:gray;
+    margin-top:3%;
+}
+.twitter-para
+{
+    font-size: 12px;
+    color:rgba(0, 0, 0, 0.781);
+    padding: 0 4%;
+    line-height: 1rem;
+}
+.twitter-footer
+{
+    display: flex;
+    padding: 0 4%;
+    border-bottom: 2px solid lightgray;
+}
+.twitter-footer-like
+{
+    /* margin-top: 2%; */
+    margin-bottom: 4%;
+}
+.likes
+{
+    color:rgb(170, 60, 60);
+    margin-left: 3%;
+    margin-top: 4%;
+}
+.twitter-footer-share
+{
+    margin-left: 8%;
+    margin-bottom: 4%;
+}
+.shares
+{
+    color: rgb(135, 192, 206);
+    margin-left: 3%;
+    margin-top:4%;
+}
+.date
+{
+    color:gray;
+    margin-left:38%;
+    margin-top:4%;
+}
+.twitter-footer-like-modi
+{
+    /* margin-top: 2%; */
+    margin-bottom: 4%;
+}
+.twitter-footer-share-modi
+{
+    margin-left: 8%;
+    margin-bottom: 4%;
+}
+.date-modi
+{
+    color:gray;
+    margin-left:35%;
+    margin-top:4%;
+} 
+/* @media only screen and (max-width: 768px)
+{
+    .twitter-footer-like,.twitter-footer-like-modi,.twitter-footer-share,.twitter-footer-share-modi
+    {
+        margin-bottom: 2.5%;
+    }
+    .date
+    {
+        color:gray;
+        margin-left:48%;
+        margin-top:4%;
+    }
+    .twitter-para
+    {
+    font-size: 18px;
+    line-height: 1.8rem;
+    } */
+/* } */
